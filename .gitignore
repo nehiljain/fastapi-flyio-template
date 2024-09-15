@@ -1,3 +1,37 @@
 __pycache__/
 .venv/
 .aider*
+# Prefect
+.prefect/
+# FastAPI
+instance/
+*.db
+*.sqlite3
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+._*
+# Icon must end with two \r
+Icon
+# Python
+*.pyc
+*.pyo
+*.pyd
+
+
+# data
+data/
+*.csv
+*.json
+*.parquet
+*.sqlite
+*.db
+
+
+# logs
+logs/
+
+# .env
+.env
